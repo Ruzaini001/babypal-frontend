@@ -49,7 +49,7 @@ jobs:
     docker:
       - image: cimg/node:16.10
     environment:
-      IMAGE_NAME: nzj002/node-app-test-repository
+      IMAGE_NAME: ruzaini93/node-app-test-repository
     steps:
       - checkout
       - setup_remote_docker
